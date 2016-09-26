@@ -10,7 +10,7 @@ When the find function is invoked, the path compression algorithm is applied.
 
 Path Compression takes chains of nodes which lead to the root, and makes all the individual nodes point to the root.
 
-A great tutorial on Disjoint Sets can be found here (in c++): [youtube video](https://www.youtube.com/watch?v=ID00PMy0-vE)
+A great tutorial on Disjoint Sets can be found [here]](https://www.youtube.com/watch?v=ID00PMy0-vE) (in c++).
 
 ###Use Cases###
 * **Kruskals Algorithm** uses disjoint sets
@@ -20,11 +20,13 @@ A great tutorial on Disjoint Sets can be found here (in c++): [youtube video](ht
 
 ###Complexity###
 Space Complexity: **O(n)**
-```The space complexity is pretty straight forward - if there are n elements the space used will be O(n).
+```
+The space complexity is pretty straight forward - if there are n elements the space used will be O(n).
 ```
 
 Time Complexity: **O(m)**
-```For m operations and n elements, the time complexity will be:
+```
+For m operations and n elements, the time complexity will be:
 O(mα(n)) 
 α(n) <= 4 
 O(mα(n)) ≃ O(4m)
